@@ -19,7 +19,7 @@ h1 {
 
 h2 {
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 28px;
 }
 
@@ -32,11 +32,34 @@ h4 {
     margin-bottom: 5px;
 }
 
-.header {
-    text-align: right;
+h5 {
+    margin-bottom: 0;
 }
 
-.footer1 {
+.row {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.portfolioimg {
+    margin: auto;
+}
+
+.headerfooterrow {
+    text-align: right;
+    display: block;
+}
+
+.headerfootercolumn {
+    display: block;
+}
+
+#footer1 {
     text-align: center;
 }
 
