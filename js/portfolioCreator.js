@@ -37,7 +37,7 @@
     portfolioEntries.push(
     {
         "name": "The Blue Room",
-        "img": "the_blue_rooM_project_pic.png",
+        "img": "the_blue_room_project_pic.png",
         "description": "A re-imagining of the classic room-escape adventure game genre, The Blue Room paints a world where the true impediment to escape is the protagonist's own depression and agoraphobia. Explore the vast yet sharply limiting confines of a single room, and join the protagonist as they search for hope, motivation, joy, or just distraction from their depression.  The art features digital collage techniques.",
         "credits": 'Concept, design, writing, programming, art: Louis Webb<br>Made with Unity using Tony Coculuzzi\'s <a href="https://www.assetstore.unity3d.com/en/#!/content/14854" target="_blank">Dialoguer</a>',
         "links": [
@@ -45,7 +45,16 @@
             ["Download", "https://www.dropbox.com/sh/e8z11m8qbnhry5a/AAC6ecBL7YsdkElWABzDezBya"]
         ]
     });
-
+    portfolioEntries.push(
+    {
+        "name": "Bad Moon",
+        "img": "bad_moon_project_pic.png",
+        "description": "A bullet h*ck nightmare on an endless night! On a sea-covered world where the moon never leaves the sky, Marten holds out against mechanical invaders dead set on destroying her home with nothing but her trusty laz-blaster and a pair of rocket boots! But everything that rises must fall...  Made during Global Game Jam 2017.",
+        "credits": "Concept, Lead programming, enemy AI design: Louis Webb<br>Concept, environment art, additional programming: Jonathan Minnamon<br>Concept, character art, sound design: Aubrey Rose",
+        "links": [
+            ["Play/download", "https://calamityjive.itch.io/badmoon"]
+        ]
+    });
     portfolioEntries.push(
     {
         "name": "Asteroidal Projection",
