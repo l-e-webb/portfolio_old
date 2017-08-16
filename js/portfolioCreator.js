@@ -36,18 +36,36 @@
     var portfolioEntries = [];
     portfolioEntries.push(
     {
-        "name": "The Blue Room",
+        "name": "Dreamquill (Coming Soon!)",
+        "img": "dreamquill.png",
+        "description": "Dreamquill is an new take on the turn-based RPG genre.  Explore beautiful dreamscapes, fight monsters using innovating spell crafting system, romance your classmates, and more.  This game is currently in prototyping, with a Kickstarter soon to come.",
+        "credits": "Concept, design, writing, programming: Louis Webb<br>Featuring art by <a href='http://villian-kucingkecil.deviantart.com/' target='_blank'>KucingKecil</a><br>Made in RPGMaker MV",
+        "links": []
+    });
+    portfolioEntries.push(
+    {
+        "name": "The Blue Room (Beta)",
         "img": "the_blue_room_project_pic.png",
-        "description": "A re-imagining of the classic room-escape adventure game genre, The Blue Room paints a world where the true impediment to escape is the protagonist's own depression and agoraphobia. Explore the vast yet sharply limiting confines of a single room, and join the protagonist as they search for hope, motivation, joy, or just distraction from their depression.  The art features digital collage techniques.",
+        "description": "A re-imagining of the classic room-escape adventure game genre, The Blue Room paints a world where the true impediment to escape is the protagonist's own depression and agoraphobia. Explore the vast yet sharply limiting confines of a single room, and join the protagonist as they search for hope, motivation, joy, or just distraction from their depression.  The art features digital collage techniques.  This project is currently in open beta.",
         "credits": 'Concept, design, writing, programming, art: Louis Webb<br>Made with Unity using Tony Coculuzzi\'s <a href="https://www.assetstore.unity3d.com/en/#!/content/14854" target="_blank">Dialoguer</a>',
         "links": [
-            ["Play", "https://l-e-webb.github.io/the_blue_room"],
-            ["Download", "https://www.dropbox.com/sh/e8z11m8qbnhry5a/AAC6ecBL7YsdkElWABzDezBya"]
+            ["Download", "https://tangledwebgames.itch.io/the-blue-room"]
         ]
     });
     portfolioEntries.push(
     {
-        "name": "Bad Moon",
+        "name": "Asteroidal Projection (Beta)",
+        "img": "asteroidal_projection_project_pic.png",
+        "description": "Asteroidal Projection is inspired by the classic arcade game Asteroids, but comes with a twist. The game occurs in the normal Euclidean plane projected radially into the unit disc. An entire infinite 2D space is inside the disc-shaped play area. Sizes and distances are distorted the farther you get from the center, so objects will appear to shrink and go slower as they near the edges of the disc.  This project is currently in open beta and available to play online.",
+        "credits": "Concept, design, programming, art: Louis Webb<br>Music: <a href='https://incompetech.com' target='_blank'>Kevin Macleod</a><br>Made with libGDX",
+        "links": [
+            ["Play", "https://l-e-webb.github.io/asteroidal_projection"],
+            ["Source", "https://github.com/l-e-webb/asteroidal_projection"]
+        ]
+    });
+    portfolioEntries.push(
+    {
+        "name": "Bad Moon (Global Game Jam 2017)",
         "img": "bad_moon_project_pic.png",
         "description": "A bullet h*ck nightmare on an endless night! On a sea-covered world where the moon never leaves the sky, Marten holds out against mechanical invaders dead set on destroying her home with nothing but her trusty laz-blaster and a pair of rocket boots! But everything that rises must fall...  Made during Global Game Jam 2017.",
         "credits": "Concept, Lead programming, enemy AI design: Louis Webb<br>Concept, environment art, additional programming: Jonathan Minnamon<br>Concept, character art, sound design: Aubrey Rose",
@@ -57,20 +75,9 @@
     });
     portfolioEntries.push(
     {
-        "name": "Asteroidal Projection",
-        "img": "asteroidal_projection_project_pic.png",
-        "description": "Asteroidal Projection is inspired by the classic arcade game Asteroids, but comes with a twist.  The game occurs in the normal Euclidean plane projected into the unit disc.  An entire infinite 2D space is inside the disc-shaped play area.  Sizes and distances are distorted the farther you get from the center.  Objects will appear to shrink and go slower as they near the edges of the disc.  This game is currently under development, but you can play the demo online.",
-        "credits": "Concept, design, programming: Louis Webb<br>Made with libGDX",
-        "links": [
-            ["Play demo", "https://l-e-webb.github.io/asteroidal_projection"],
-            ["Source", "https://github.com/l-e-webb/asteroidal_projection"]
-        ]
-    });
-    portfolioEntries.push(
-    {
         "name": "CrossFade",
         "img": "crossfade_project_pic.png",
-        "description": ">A simple puzzle game.  Selecting a tile flips the on/off value of all the tiles in that tile's row and column.  Try to turn them all off!  The game is playable in-browser and on Android.  (Not on Google Play Store at the moment, but hopefully soon!)",
+        "description": "A simple puzzle game.  Selecting a tile flips the on/off value of all the tiles in that tile's row and column.  Try to turn them all off!  The game is playable in-browser and on Android.  (Not on Google Play Store at the moment, but hopefully soon!)",
         "credits": "Concept, design, programming: Louis Webb<br>Made with libGDX",
         "links": [
             ["Play", "https://l-e-webb.github.io/crossfade"],
